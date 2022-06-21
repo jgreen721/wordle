@@ -157,7 +157,7 @@ function App() {
                       ? "board-tile empty"
                       : g.value === -1
                       ? "board-tile wrong"
-                      : g.rightSpot == true
+                      : g.rightSpot === true
                       ? "board-tile right-spot"
                       : "board-tile right-letter"
                   }
